@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+// import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import express from 'express'
 import dotenv from 'dotenv';
