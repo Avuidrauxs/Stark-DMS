@@ -1,11 +1,11 @@
-// import mongoose from 'mongoose';
+import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import express from 'express'
 import dotenv from 'dotenv';
 // import routes from './routes/index';
 dotenv.config();
-const app = express()
-const env = process.env.NODE_ENV || 'development'
+const app = express();
+const env = process.env.NODE_ENV || 'development';
 const port = env === 'development' ? process.env.DEV_PORT : process.env.PORT;
 
 
